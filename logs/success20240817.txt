@@ -154,3 +154,123 @@ FROM "Books" AS "b"
 2024-08-17 13:12:05.714 +05:30 [INF] Executed endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
 2024-08-17 13:12:05.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/count - 200 null application/json; charset=utf-8 800.0812ms
 2024-08-17 13:12:12.081 +05:30 [INF] Application is shutting down...
+2024-08-17 13:35:12.721 +05:30 [INF] Application is starting up...
+2024-08-17 13:35:12.901 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:35:12.903 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:35:12.903 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:35:12.903 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:35:16.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/count - null null
+2024-08-17 13:35:16.995 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-17 13:35:17.009 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/count - 404 0 null 21.0254ms
+2024-08-17 13:35:17.012 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5011/api/books/count, Response status code: 404
+2024-08-17 13:35:19.118 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/count - null null
+2024-08-17 13:35:19.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/count - 404 0 null 0.8916ms
+2024-08-17 13:35:19.119 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5011/api/books/count, Response status code: 404
+2024-08-17 13:35:24.257 +05:30 [INF] Application is shutting down...
+2024-08-17 13:35:31.226 +05:30 [INF] Application is starting up...
+2024-08-17 13:35:31.424 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:35:31.426 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:35:31.427 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:35:31.427 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:35:34.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/all - null null
+2024-08-17 13:35:34.078 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-17 13:35:34.091 +05:30 [INF] Executing endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:35:34.108 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[books_management.Utils.Response`1[books_management.Models.Book]]] GetBooks() on controller books_management.Controllers.BooksController (books-management).
+2024-08-17 13:35:34.191 +05:30 [INF] Fetching all books.
+2024-08-17 13:35:34.765 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."BookId", "b"."AuthorId", "b"."CopiesAvailable", "b"."ISBN", "b"."Language", "b"."NumberOfPages", "b"."PublishedDate", "b"."Title"
+FROM "Books" AS "b"
+2024-08-17 13:35:34.826 +05:30 [INF] Successfully fetched 10 books.
+2024-08-17 13:35:34.830 +05:30 [INF] Executing OkObjectResult, writing value of type 'books_management.Utils.Response`1[[books_management.Models.Book, books-management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-17 13:35:34.870 +05:30 [INF] Executed action books_management.Controllers.BooksController.GetBooks (books-management) in 758.9989ms
+2024-08-17 13:35:34.871 +05:30 [INF] Executed endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:35:34.876 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/all - 200 null application/json; charset=utf-8 805.7621ms
+2024-08-17 13:36:06.885 +05:30 [INF] Application is shutting down...
+2024-08-17 13:36:16.324 +05:30 [INF] Application is starting up...
+2024-08-17 13:36:16.544 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:36:16.546 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:36:16.547 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:36:16.547 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:36:20.990 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/all - null null
+2024-08-17 13:36:20.997 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-17 13:36:21.010 +05:30 [INF] Executing endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:36:21.028 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[books_management.Utils.Response`1[books_management.Models.Book]]] GetBooks() on controller books_management.Controllers.BooksController (books-management).
+2024-08-17 13:36:21.107 +05:30 [INF] Fetching all books.
+2024-08-17 13:36:21.696 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."BookId", "b"."AuthorId", "b"."CopiesAvailable", "b"."ISBN", "b"."Language", "b"."NumberOfPages", "b"."PublishedDate", "b"."Title"
+FROM "Books" AS "b"
+2024-08-17 13:36:21.757 +05:30 [INF] Successfully fetched 10 books.
+2024-08-17 13:36:21.761 +05:30 [INF] Executing OkObjectResult, writing value of type 'books_management.Utils.Response`1[[books_management.Models.Book, books-management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-17 13:36:21.799 +05:30 [INF] Executed action books_management.Controllers.BooksController.GetBooks (books-management) in 768.9048ms
+2024-08-17 13:36:21.800 +05:30 [INF] Executed endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:36:21.806 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/all - 200 null application/json; charset=utf-8 815.9771ms
+2024-08-17 13:38:08.951 +05:30 [INF] Application is shutting down...
+2024-08-17 13:38:49.645 +05:30 [INF] Application is starting up...
+2024-08-17 13:38:49.851 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:38:49.853 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:38:49.853 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:38:49.853 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:38:56.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/all - null null
+2024-08-17 13:38:56.541 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-17 13:38:56.555 +05:30 [INF] Executing endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:38:56.572 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[books_management.Utils.PagedResponse`1[books_management.Models.Book]]] GetBooks() on controller books_management.Controllers.BooksController (books-management).
+2024-08-17 13:38:56.647 +05:30 [INF] Fetching all books.
+2024-08-17 13:38:57.222 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."BookId", "b"."AuthorId", "b"."CopiesAvailable", "b"."ISBN", "b"."Language", "b"."NumberOfPages", "b"."PublishedDate", "b"."Title"
+FROM "Books" AS "b"
+2024-08-17 13:38:57.282 +05:30 [INF] Successfully fetched 10 books.
+2024-08-17 13:38:57.286 +05:30 [INF] Executing OkObjectResult, writing value of type 'books_management.Utils.PagedResponse`1[[books_management.Models.Book, books-management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-17 13:38:57.320 +05:30 [INF] Executed action books_management.Controllers.BooksController.GetBooks (books-management) in 745.5431ms
+2024-08-17 13:38:57.321 +05:30 [INF] Executed endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:38:57.327 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/all - 200 null application/json; charset=utf-8 793.3433ms
+2024-08-17 13:42:07.631 +05:30 [INF] Application is shutting down...
+2024-08-17 13:42:16.337 +05:30 [INF] Application is starting up...
+2024-08-17 13:42:16.524 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:42:16.526 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:42:16.526 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:42:16.526 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:44:05.818 +05:30 [INF] Application is shutting down...
+2024-08-17 13:44:13.996 +05:30 [INF] Application is starting up...
+2024-08-17 13:44:14.192 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:44:14.194 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:44:14.195 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:44:14.195 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:44:46.754 +05:30 [INF] Application is shutting down...
+2024-08-17 13:44:55.513 +05:30 [INF] Application is starting up...
+2024-08-17 13:44:55.717 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:44:55.719 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:44:55.719 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:44:55.719 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:45:07.804 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/all - null null
+2024-08-17 13:45:07.811 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-17 13:45:07.823 +05:30 [INF] Executing endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:45:07.841 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[books_management.Utils.PagedResponse`1[books_management.Models.Book]]] GetBooks() on controller books_management.Controllers.BooksController (books-management).
+2024-08-17 13:45:07.915 +05:30 [INF] Fetching all books.
+2024-08-17 13:45:08.487 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."BookId", "b"."AuthorId", "b"."CopiesAvailable", "b"."ISBN", "b"."Language", "b"."NumberOfPages", "b"."PublishedDate", "b"."Title"
+FROM "Books" AS "b"
+2024-08-17 13:45:08.545 +05:30 [INF] Successfully fetched 10 books.
+2024-08-17 13:45:08.549 +05:30 [INF] Executing OkObjectResult, writing value of type 'books_management.Utils.PagedResponse`1[[books_management.Models.Book, books-management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-17 13:45:08.583 +05:30 [INF] Executed action books_management.Controllers.BooksController.GetBooks (books-management) in 740.0462ms
+2024-08-17 13:45:08.584 +05:30 [INF] Executed endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:45:08.589 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/all - 200 null application/json; charset=utf-8 786.9126ms
+2024-08-17 13:48:29.354 +05:30 [INF] Application is shutting down...
+2024-08-17 13:48:36.726 +05:30 [INF] Application is starting up...
+2024-08-17 13:48:36.908 +05:30 [INF] Now listening on: http://localhost:5011
+2024-08-17 13:48:36.910 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-17 13:48:36.911 +05:30 [INF] Hosting environment: Production
+2024-08-17 13:48:36.911 +05:30 [INF] Content root path: /home/ram/Books-Management
+2024-08-17 13:48:42.868 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/books/all - null null
+2024-08-17 13:48:42.874 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-17 13:48:42.888 +05:30 [INF] Executing endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:48:42.906 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[books_management.Utils.PagedResponse`1[books_management.Models.Book]]] GetBooks() on controller books_management.Controllers.BooksController (books-management).
+2024-08-17 13:48:42.980 +05:30 [INF] Fetching all books.
+2024-08-17 13:48:43.540 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."BookId", "b"."AuthorId", "b"."CopiesAvailable", "b"."ISBN", "b"."Language", "b"."NumberOfPages", "b"."PublishedDate", "b"."Title"
+FROM "Books" AS "b"
+2024-08-17 13:48:43.600 +05:30 [INF] Successfully fetched 10 books.
+2024-08-17 13:48:43.603 +05:30 [INF] Executing OkObjectResult, writing value of type 'books_management.Utils.PagedResponse`1[[books_management.Models.Book, books-management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-17 13:48:43.638 +05:30 [INF] Executed action books_management.Controllers.BooksController.GetBooks (books-management) in 729.4751ms
+2024-08-17 13:48:43.639 +05:30 [INF] Executed endpoint 'books_management.Controllers.BooksController.GetBooks (books-management)'
+2024-08-17 13:48:43.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/books/all - 200 null application/json; charset=utf-8 777.1028ms
+2024-08-17 13:49:51.758 +05:30 [INF] Application is shutting down...

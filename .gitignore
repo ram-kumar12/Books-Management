@@ -1,0 +1,6 @@
+*.json
+*logs
+*obj
+*.sln
+*bin
+!appsettings.json

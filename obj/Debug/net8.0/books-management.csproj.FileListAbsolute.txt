@@ -135,3 +135,4 @@
 /home/ram/books-management/bin/Debug/net8.0/Serilog.Sinks.Console.dll
 /home/ram/books-management/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
 /home/ram/books-management/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/home/ram/Books-Management/obj/Debug/net8.0/books-management.sourcelink.json

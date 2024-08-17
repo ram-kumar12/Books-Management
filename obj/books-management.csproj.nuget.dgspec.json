@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ram/books-management/books-management.csproj": {}
+    "/home/ram/Books-Management/books-management.csproj": {}
   },
   "projects": {
-    "/home/ram/books-management/books-management.csproj": {
+    "/home/ram/Books-Management/books-management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ram/books-management/books-management.csproj",
+        "projectUniqueName": "/home/ram/Books-Management/books-management.csproj",
         "projectName": "books-management",
-        "projectPath": "/home/ram/books-management/books-management.csproj",
+        "projectPath": "/home/ram/Books-Management/books-management.csproj",
         "packagesPath": "/home/ram/.nuget/packages/",
-        "outputPath": "/home/ram/books-management/obj/",
+        "outputPath": "/home/ram/Books-Management/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ram/.nuget/NuGet/NuGet.Config"
