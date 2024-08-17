@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kjIE6+cZptkqCnOqMeJmltOTeyd+seZzTb9jSccrcIY=",
+  "Source": "books-management",
+  "BasePath": "_content/books-management",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
